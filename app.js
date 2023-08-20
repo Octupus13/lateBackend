@@ -7,11 +7,11 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const dbConfig = {
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  port: process.env.DB_PORT,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME
+  host: 'database-2.ctilcla9chru.us-east-1.rds.amazonaws.com',
+  user: 'admin',
+  port: 3306,
+  password: 'NKM12345',
+  database: 'Pinterblue'
 };
 
 const connection = mysql.createConnection(dbConfig);
