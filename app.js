@@ -5,7 +5,7 @@ require('dotenv').config(); // Load environment variables from .env
 
 const app = express();
 const port = process.env.PORT || 3000;
-
+app.use(cors());
 const dbConfig = {
   host: 'database-2.ctilcla9chru.us-east-1.rds.amazonaws.com',
   user: 'admin',
