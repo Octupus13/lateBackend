@@ -4,7 +4,7 @@ const mysql = require('mysql');
 require('dotenv').config(); // Load environment variables from .env
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 const dbConfig = {
   host: 'database-2.ctilcla9chru.us-east-1.rds.amazonaws.com',
