@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const dbConfig = {
-  host: 'database-2.ctilcla9chru.us-east-1.rds.amazonaws.com',
+  host: 'database-1.ctilcla9chru.us-east-1.rds.amazonaws.com',
   user: 'admin',
   port: 3306,
   password: 'NKM12345',
